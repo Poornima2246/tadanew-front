@@ -34,7 +34,7 @@
 //     try {
 //       console.log('Attempting login with:', formData.email);
       
-//       const response = await fetch('https://tadaa-bacend.onrender.com/api/users/login', {
+//       const response = await fetch('https://tadanew-bac.onrender.com/api/users/login', {
 //         method: 'POST',
 //         headers: {
 //           'Content-Type': 'application/json',
@@ -67,7 +67,7 @@
 //     setError('');
 
 //     try {
-//       const response = await fetch('https://tadaa-bacend.onrender.com/api/users/google-login', {
+//       const response = await fetch('https://tadanew-bac.onrender.com/api/users/google-login', {
 //         method: 'POST',
 //         headers: {
 //           'Content-Type': 'application/json',
@@ -259,7 +259,7 @@
 //     setError('');
 
 //     try {
-//       const response = await fetch('https://tadaa-bacend.onrender.com/api/users/login', {
+//       const response = await fetch('https://tadanew-bac.onrender.com/api/users/login', {
 //         method: 'POST',
 //         headers: {
 //           'Content-Type': 'application/json',
@@ -287,7 +287,7 @@
 //     setError('');
 
 //     try {
-//       const response = await fetch('https://tadaa-bacend.onrender.com/api/users/google-login', {
+//       const response = await fetch('https://tadanew-bac.onrender.com/api/users/google-login', {
 //         method: 'POST',
 //         headers: {
 //           'Content-Type': 'application/json',
@@ -531,7 +531,7 @@ const LoginPage = () => {
   useEffect(() => {
     const checkAPI = async () => {
       try {
-        const response = await fetch(' https://tadaa-bacend.onrender.com/api/test');
+        const response = await fetch(' https://tadanew-bac.onrender.com/api/test');
         const data = await response.json();
         console.log('✅ API Status:', data);
         setApiStatus('connected');
@@ -557,7 +557,7 @@ const LoginPage = () => {
     setError('');
 
     try {
-      const response = await fetch(' https://tadaa-bacend.onrender.com/api/users/login', {
+      const response = await fetch('https://tadanew-bac.onrender.com/api/users/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -588,7 +588,7 @@ const LoginPage = () => {
     try {
       console.log('🔵 Sending Google login request...');
       
-      const response = await fetch(' https://tadaa-bacend.onrender.com/api/users/google-login', {
+      const response = await fetch('https://tadanew-bac.onrender.com/api/users/google-login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

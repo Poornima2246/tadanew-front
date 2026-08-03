@@ -39,7 +39,7 @@
 //   useEffect(() => {
 //     const fetchCategories = async () => {
 //       try {
-//         const res = await fetch("https://tadaa-bacend.onrender.com/api/categories");
+//         const res = await fetch("https://tadanew-bac.onrender.com/api/categories");
 //         if (res.ok) {
 //           const data = await res.json();
 //           setCategories(Array.isArray(data) ? data.sort() : []);
@@ -81,7 +81,7 @@
 //       console.log(`🔍 Searching for: "${query}"`);
 
 //       const response = await fetch(
-//         `https://tadaa-bacend.onrender.com/api/products?search=${encodeURIComponent(query)}&limit=8`
+//         `https://tadanew-bac.onrender.com/api/products?search=${encodeURIComponent(query)}&limit=8`
 //       );
 
 //       if (!response.ok) {
@@ -450,7 +450,7 @@
 //   useEffect(() => {
 //     const fetchCategories = async () => {
 //       try {
-//         const res = await fetch("https://tadaa-bacend.onrender.com/api/categories");
+//         const res = await fetch("https://tadanew-bac.onrender.com/api/categories");
 //         if (res.ok) {
 //           const data = await res.json();
 //           setCategories(Array.isArray(data) ? data.sort() : []);
@@ -492,7 +492,7 @@
 //       console.log(`🔍 Searching for: "${query}"`);
 
 //       const response = await fetch(
-//         `https://tadaa-bacend.onrender.com/api/products?search=${encodeURIComponent(query)}&limit=8`
+//         `https://tadanew-bac.onrender.com/api/products?search=${encodeURIComponent(query)}&limit=8`
 //       );
 
 //       if (!response.ok) {
@@ -923,7 +923,7 @@ export default function Navbar() {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const res = await fetch("https://tadaa-bacend.onrender.com/api/categories");
+        const res = await fetch("https://tadanew-bac.onrender.com/api/categories");
         if (res.ok) {
           const data = await res.json();
           setCategories(Array.isArray(data) ? data.sort() : []);
@@ -965,7 +965,7 @@ export default function Navbar() {
       console.log(`🔍 Searching for: "${query}"`);
 
       const response = await fetch(
-        `https://tadaa-bacend.onrender.com/api/products?search=${encodeURIComponent(query)}&limit=8`
+        `https://tadanew-bac.onrender.com/api/products?search=${encodeURIComponent(query)}&limit=8`
       );
 
       if (!response.ok) {
