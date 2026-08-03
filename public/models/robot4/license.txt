@@ -1,0 +1,8 @@
+Model Information:
+* title:	Berseker
+* source:	https://sketchfab.com/3d-models/berseker-f9d668ba71724a78978b670799378c9c
+* author:	Lux87 (https://sketchfab.com/lux87)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
