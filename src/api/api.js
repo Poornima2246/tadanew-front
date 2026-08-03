@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // backend url
+  baseURL: " https://tadanew-bac.onrender.com/api", // backend url
 });
 
 // user routes

@@ -41,7 +41,7 @@
 //       setLoading(true);
       
 //       // Fetch dashboard stats
-//       const statsResponse = await fetch("http://localhost:5000/api/admin/dashboard/stats", {
+//       const statsResponse = await fetch(" https://tadanew-bac.onrender.com/api/admin/dashboard/stats", {
 //         headers: { Authorization: `Bearer ${token}` }
 //       });
 //       const statsData = await statsResponse.json();
@@ -58,7 +58,7 @@
 //       }
 
 //       // Fetch sellers for approval
-//       const sellersResponse = await fetch("http://localhost:5000/api/admin/sellers", {
+//       const sellersResponse = await fetch(" https://tadanew-bac.onrender.com/api/admin/sellers", {
 //         headers: { Authorization: `Bearer ${token}` }
 //       });
 //       const sellersData = await sellersResponse.json();
@@ -67,7 +67,7 @@
 //       }
 
 //       // Fetch users
-//       const usersResponse = await fetch("http://localhost:5000/api/admin/users", {
+//       const usersResponse = await fetch(" https://tadanew-bac.onrender.com/api/admin/users", {
 //         headers: { Authorization: `Bearer ${token}` }
 //       });
 //       const usersData = await usersResponse.json();
@@ -85,7 +85,7 @@
 //   const updateSellerStatus = async (sellerId, status) => {
 //     const token = localStorage.getItem("adminToken");
 //     try {
-//       const response = await fetch(`http://localhost:5000/api/admin/sellers/${sellerId}/status`, {
+//       const response = await fetch(` https://tadanew-bac.onrender.com/api/admin/sellers/${sellerId}/status`, {
 //         method: "PUT",
 //         headers: {
 //           "Content-Type": "application/json",
@@ -537,7 +537,7 @@ export default function AdminDashboard({ onLogout }) {
       setLoading(true);
       
       // Fetch dashboard stats
-      const statsResponse = await fetch("http://localhost:5000/api/admin/dashboard/stats", {
+      const statsResponse = await fetch(" https://tadanew-bac.onrender.com/api/admin/dashboard/stats", {
         headers: { Authorization: `Bearer ${token}` }
       });
       const statsData = await statsResponse.json();
@@ -554,7 +554,7 @@ export default function AdminDashboard({ onLogout }) {
       }
 
       // Fetch sellers for approval
-      const sellersResponse = await fetch("http://localhost:5000/api/admin/sellers", {
+      const sellersResponse = await fetch(" https://tadanew-bac.onrender.com/api/admin/sellers", {
         headers: { Authorization: `Bearer ${token}` }
       });
       const sellersData = await sellersResponse.json();
@@ -563,7 +563,7 @@ export default function AdminDashboard({ onLogout }) {
       }
 
       // Fetch users
-      const usersResponse = await fetch("http://localhost:5000/api/admin/users", {
+      const usersResponse = await fetch(" https://tadanew-bac.onrender.com/api/admin/users", {
         headers: { Authorization: `Bearer ${token}` }
       });
       const usersData = await usersResponse.json();
@@ -581,7 +581,7 @@ export default function AdminDashboard({ onLogout }) {
   const updateSellerStatus = async (sellerId, status) => {
     const token = localStorage.getItem("adminToken");
     try {
-      const response = await fetch(`http://localhost:5000/api/admin/sellers/${sellerId}/status`, {
+      const response = await fetch(` https://tadanew-bac.onrender.com/api/admin/sellers/${sellerId}/status`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

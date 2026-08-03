@@ -335,7 +335,7 @@ import ProfileSettings from "./ProfileSettings";
 import axios from "axios";
 import { useAuth } from "../pages/AuthContext";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = " https://tadanew-bac.onrender.com";
 
 const Dashboard = () => {
   const { user } = useAuth(); // still useful for auth, but not blocking fetch

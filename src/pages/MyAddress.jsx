@@ -5,7 +5,7 @@ import { State, City } from "country-state-city";
 
 export default function AddressManagement() {
 
-  const API = "http://localhost:5000/api"; // change to your backend URL
+  const API = " https://tadanew-bac.onrender.com/api"; // change to your backend URL
 
   const [addresses, setAddresses] = useState([]);
   const [showForm, setShowForm] = useState(false);

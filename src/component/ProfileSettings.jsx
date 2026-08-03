@@ -3,7 +3,7 @@
 // import axios from "axios";
 
 
-// const API_BASE = "http://localhost:5000"; 
+// const API_BASE = " https://tadanew-bac.onrender.com"; 
 
 // const ProfileSettings = ({ profile, setProfile }) => {
 //   const [activeTab, setActiveTab] = useState("profile");
@@ -265,7 +265,7 @@ import React, { useState } from "react";
 import { User, Phone, Mail, Lock } from "lucide-react";
 import axios from "axios";
 
-const API_BASE = "http://localhost:5000"; 
+const API_BASE = " https://tadanew-bac.onrender.com"; 
 
 const ProfileSettings = ({ profile, setProfile }) => {
   const [activeTab, setActiveTab] = useState("profile");

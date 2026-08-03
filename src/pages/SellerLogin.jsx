@@ -12,7 +12,7 @@
 //   const [showSetPassword, setShowSetPassword] = useState(false);
 //   const [activationToken, setActivationToken] = useState("");
 
-//   const apiUrl =   "http://localhost:5000";
+//   const apiUrl =   " https://tadanew-bac.onrender.com";
 
 //   const handleChange = (e) => {
 //     setFormData({
@@ -355,7 +355,7 @@ const SellerLogin = ({ onLogin, onNavigateToRegister }) => {
   const [activationToken, setActivationToken] = useState("");
 
   const navigate = useNavigate();
-  const apiUrl = "http://localhost:5000";
+  const apiUrl = " https://tadanew-bac.onrender.com";
 
   const handleChange = (e) => {
     setFormData({

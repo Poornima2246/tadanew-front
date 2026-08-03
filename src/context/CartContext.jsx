@@ -172,7 +172,7 @@
 
 // const CartContext = createContext();
 
-// const API_URL = "http://localhost:5000";
+// const API_URL = " https://tadanew-bac.onrender.com";
 
 // export const CartProvider = ({ children }) => {
 //   const [cartItems, setCartItems] = useState([]);
@@ -365,7 +365,7 @@ import { toast } from "react-hot-toast";
 
 const CartContext = createContext();
 
-const API_URL = "http://localhost:5000";
+const API_URL = " https://tadanew-bac.onrender.com";
 
 export const CartProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);

@@ -14,8 +14,8 @@
 
 //   const { addToCart } = useCart();
 
-//   const API_PRODUCTS = "http://localhost:5000/api/products";
-//   const API_WISHLIST = "http://localhost:5000/api/wishlist";
+//   const API_PRODUCTS = " https://tadanew-bac.onrender.com/api/products";
+//   const API_WISHLIST = " https://tadanew-bac.onrender.com/api/wishlist";
 
 //   useEffect(() => {
 //     const fetchInitialData = async () => {
@@ -179,8 +179,8 @@
 
 //   const { addToCart } = useCart();
 
-//   const API_PRODUCTS = "http://localhost:5000/api/products";
-//   const API_WISHLIST = "http://localhost:5000/api/wishlist";
+//   const API_PRODUCTS = " https://tadanew-bac.onrender.com/api/products";
+//   const API_WISHLIST = " https://tadanew-bac.onrender.com/api/wishlist";
 
 //   useEffect(() => {
 //     const fetchData = async () => {
@@ -530,8 +530,8 @@
 
 //   const { addToCart } = useCart();
 
-//   const API_PRODUCTS = "http://localhost:5000/api/products";
-//   const API_WISHLIST = "http://localhost:5000/api/wishlist";
+//   const API_PRODUCTS = " https://tadanew-bac.onrender.com/api/products";
+//   const API_WISHLIST = " https://tadanew-bac.onrender.com/api/wishlist";
 
 //   useEffect(() => {
 //     const fetchData = async () => {
@@ -840,8 +840,8 @@ export default function ProductShowcase() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const { addToCart } = useCart();
-  const API_PRODUCTS = "http://localhost:5000/api/products";
-  const API_WISHLIST = "http://localhost:5000/api/wishlist";
+  const API_PRODUCTS = " https://tadanew-bac.onrender.com/api/products";
+  const API_WISHLIST = " https://tadanew-bac.onrender.com/api/wishlist";
 
   useEffect(() => {
     const fetchData = async () => {

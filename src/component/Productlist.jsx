@@ -15,7 +15,7 @@ export default function Productlist() {
     const fetchProducts = async () => {
       console.time('productFetch'); // Start timing the fetch and set process
       try {
-        const response = await axios.get("http://localhost:5000/api/products?limit=4");
+        const response = await axios.get(" https://tadanew-bac.onrender.com/api/products?limit=4");
 
         const productsData = Array.isArray(response?.data) ? response.data : [];
 

@@ -21,7 +21,7 @@ const VerifyEmailPage = () => {
       try {
         console.log('Verifying email with token:', token);
         
-        const response = await fetch('http://localhost:5000/api/users/verify-email', {
+        const response = await fetch(' https://tadanew-bac.onrender.com/api/users/verify-email', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

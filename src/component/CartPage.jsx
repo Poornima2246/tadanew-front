@@ -11,7 +11,7 @@
 
 
 // // Hardcoded API URL - Change this to your actual backend URL
-// const API_URL = "http://localhost:5000";
+// const API_URL = " https://tadanew-bac.onrender.com";
 
 // // Razorpay script loader
 // const loadRazorpayScript = () => {
@@ -1296,7 +1296,7 @@ import axios from "axios";
 import { toast, Toaster } from "react-hot-toast";
 
 // Hardcoded API URL - Change this to your actual backend URL
-const API_URL = "http://localhost:5000";
+const API_URL = " https://tadanew-bac.onrender.com";
 
 // Razorpay script loader
 const loadRazorpayScript = () => {

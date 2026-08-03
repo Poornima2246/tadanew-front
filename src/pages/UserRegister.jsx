@@ -44,7 +44,7 @@
 //     }
 
 //     try {
-//       const response = await fetch('http://localhost:5000/api/users/register', {
+//       const response = await fetch(' https://tadanew-bac.onrender.com/api/users/register', {
 //         method: 'POST',
 //         headers: {
 //           'Content-Type': 'application/json',
@@ -80,7 +80,7 @@
 //     setError('');
     
 //     try {
-//       const response = await fetch('http://localhost:5000/api/users/google-register', {
+//       const response = await fetch(' https://tadanew-bac.onrender.com/api/users/google-register', {
 //         method: 'POST',
 //         headers: {
 //           'Content-Type': 'application/json',
@@ -348,7 +348,7 @@ const RegisterPage = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:5000/api/users/register', {
+      const response = await fetch(' https://tadanew-bac.onrender.com/api/users/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -384,7 +384,7 @@ const RegisterPage = () => {
     setError('');
     
     try {
-      const response = await fetch('http://localhost:5000/api/users/google-register', {
+      const response = await fetch(' https://tadanew-bac.onrender.com/api/users/google-register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

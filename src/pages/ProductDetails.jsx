@@ -21,8 +21,8 @@ export default function ProductDetails() {
   // State for Tabs
   const [activeTab, setActiveTab] = useState("Description");
 
-  const API_URL = `http://localhost:5000/api/products/${id}`;
-  const API_WISHLIST = "http://localhost:5000/api/wishlist";
+  const API_URL = ` https://tadanew-bac.onrender.com/api/products/${id}`;
+  const API_WISHLIST = " https://tadanew-bac.onrender.com/api/wishlist";
 
   useEffect(() => {
     const fetchProduct = async () => {

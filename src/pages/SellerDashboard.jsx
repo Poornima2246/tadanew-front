@@ -16,7 +16,7 @@ const SellerDashboard = () => {
   });
 
   const navigate = useNavigate();
-  const apiUrl = "http://localhost:5000";
+  const apiUrl = " https://tadanew-bac.onrender.com";
 
   // Get authentication token
   const getAuthToken = () => {

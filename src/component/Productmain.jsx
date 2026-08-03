@@ -37,9 +37,9 @@
 //   const { addToCart } = useCart();
 
 
-//   const API_PRODUCTS = "http://localhost:5000/api/products";
-//   const API_CATEGORIES = "http://localhost:5000/api/categories";
-//   const API_WISHLIST = "http://localhost:5000/api/wishlist";
+//   const API_PRODUCTS = " https://tadanew-bac.onrender.com/api/products";
+//   const API_CATEGORIES = " https://tadanew-bac.onrender.com/api/categories";
+//   const API_WISHLIST = " https://tadanew-bac.onrender.com/api/wishlist";
 
 
 
@@ -578,9 +578,9 @@
 
 //   const { addToCart } = useCart();
 
-//   const API_PRODUCTS = "http://localhost:5000/api/products";
-//   const API_CATEGORIES = "http://localhost:5000/api/categories";
-//   const API_WISHLIST = "http://localhost:5000/api/wishlist";
+//   const API_PRODUCTS = " https://tadanew-bac.onrender.com/api/products";
+//   const API_CATEGORIES = " https://tadanew-bac.onrender.com/api/categories";
+//   const API_WISHLIST = " https://tadanew-bac.onrender.com/api/wishlist";
 
 //   useEffect(() => {
 //     if (urlCategory) {
@@ -1287,9 +1287,9 @@
 
 //   const { addToCart } = useCart();
 
-//   const API_PRODUCTS = "http://localhost:5000/api/products";
-//   const API_CATEGORIES = "http://localhost:5000/api/categories";
-//   const API_WISHLIST = "http://localhost:5000/api/wishlist";
+//   const API_PRODUCTS = " https://tadanew-bac.onrender.com/api/products";
+//   const API_CATEGORIES = " https://tadanew-bac.onrender.com/api/categories";
+//   const API_WISHLIST = " https://tadanew-bac.onrender.com/api/wishlist";
 
 //   const urlCategory = searchParams.get("category");
 //   const productsPerPage = 12;
@@ -2044,9 +2044,9 @@
 
 //   const { addToCart } = useCart();
 
-//   const API_PRODUCTS = "http://localhost:5000/api/products";
-//   const API_CATEGORIES = "http://localhost:5000/api/categories";
-//   const API_WISHLIST = "http://localhost:5000/api/wishlist";
+//   const API_PRODUCTS = " https://tadanew-bac.onrender.com/api/products";
+//   const API_CATEGORIES = " https://tadanew-bac.onrender.com/api/categories";
+//   const API_WISHLIST = " https://tadanew-bac.onrender.com/api/wishlist";
 
 //   const urlCategory = searchParams.get("category");
 //   const productsPerPage = 12;
@@ -2878,9 +2878,9 @@ export default function Productmain() {
   const { addToCart } = useCart();
 
   // API endpoints
-  const API_PRODUCTS = "http://localhost:5000/api/products";
-  const API_CATEGORIES = "http://localhost:5000/api/categories";
-  const API_WISHLIST = "http://localhost:5000/api/wishlist";
+  const API_PRODUCTS = " https://tadanew-bac.onrender.com/api/products";
+  const API_CATEGORIES = " https://tadanew-bac.onrender.com/api/categories";
+  const API_WISHLIST = " https://tadanew-bac.onrender.com/api/wishlist";
 
   const productsPerPage = 12;
 

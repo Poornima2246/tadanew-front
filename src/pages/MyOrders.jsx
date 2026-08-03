@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import OrderTimeline from "../component/OrderTimeline"; // adjust path as needed
 
-const API_URL = "http://localhost:5000";
+const API_URL = " https://tadanew-bac.onrender.com";
 
 export default function Orders() {
   const [orders, setOrders] = useState([]);

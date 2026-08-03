@@ -38,7 +38,7 @@ export default function SellerSetPassword() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/sellers/set-password",
+        " https://tadanew-bac.onrender.com/api/sellers/set-password",
         {
           token,
           password: formData.password,

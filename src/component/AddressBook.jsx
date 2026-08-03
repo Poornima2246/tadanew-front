@@ -21,7 +21,7 @@ const AddressBook = ({ profile }) => {
 
 
    
-const API_URL = 'http://localhost:5000';
+const API_URL = ' https://tadanew-bac.onrender.com';
 
   useEffect(() => {
     fetchAddresses();

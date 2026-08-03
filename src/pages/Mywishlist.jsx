@@ -13,8 +13,8 @@
 //   const [addedItems, setAddedItems] = useState(new Set()); // Track successfully added items
 
 //   const token = localStorage.getItem("token");
-//   const API_WISHLIST = "http://localhost:5000/api/wishlist";
-//   const API_CART = "http://localhost:5000/api/cart/add";
+//   const API_WISHLIST = " https://tadanew-bac.onrender.com/api/wishlist";
+//   const API_CART = " https://tadanew-bac.onrender.com/api/cart/add";
 
 //   const fetchWishlist = async () => {
 //     try {
@@ -226,7 +226,7 @@ export default function Wishlist() {
   const { addToCart, fetchCart } = useCart();
 
   const token = localStorage.getItem("token");
-  const API_WISHLIST = "http://localhost:5000/api/wishlist";
+  const API_WISHLIST = " https://tadanew-bac.onrender.com/api/wishlist";
 
   const fetchWishlist = async () => {
     try {

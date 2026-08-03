@@ -25,7 +25,7 @@ export default function SellerRegister() {
     setLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:5000/api/sellers/register", form);
+      const response = await axios.post(" https://tadanew-bac.onrender.com/api/sellers/register", form);
       
       setMessage(response.data.message);
       

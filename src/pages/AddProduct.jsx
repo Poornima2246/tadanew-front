@@ -64,7 +64,7 @@ export default function AddProduct() {
         }
       };
 
-      await axios.post("http://localhost:5000/api/products", formData, config);
+      await axios.post(" https://tadanew-bac.onrender.com/api/products", formData, config);
       navigate("/");
     } catch (err) {
       setError(
